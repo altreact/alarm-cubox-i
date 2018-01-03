@@ -1,5 +1,7 @@
 #!/bin/bash
 
+lsblk
+
 read -p "enter the device to install arch linux arm on: " dev
 
 umount /dev/$dev*
